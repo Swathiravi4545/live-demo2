@@ -603,5 +603,35 @@ body{
 }
 .contact img{
   max-width: 100%;
-
 }
+@media (1020px <= width <= 1330px){
+  .homesearch button{
+    margin-right: 150px;
+  }
+}
+.middlefirstbox1, .middlefirstbox2, .middlefirstbox3 h2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+#contacth1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media (1204px <= width <= 736px){
+  .home{
+     width: 100%;
+  max-width: 100%;
+  }
+  .nav-links{
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
